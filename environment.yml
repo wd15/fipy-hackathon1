@@ -1,5 +1,3 @@
-name:
-  root
 channels:
   - guyer
 dependencies:
@@ -12,6 +10,8 @@ dependencies:
   - trilinos
   - mpi4py
   - setuptools
+  - jupyter
+  - ipython
   - pip:
       - scikit-fmm
       - git+https://github.com/wd15/fipy.git@fipy-hackathon1
