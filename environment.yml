@@ -5,6 +5,8 @@ dependencies:
   - scipy
   - pip
   - setuptools
+  - matplotlib
+  - sympy
   - pip:
       - scikit-fmm
       - git+https://github.com/wd15/fipy.git@fipy-hackathon1
