@@ -1,17 +1,10 @@
-channels:
-  - guyer
+name: fipy-hackathon1
+
 dependencies:
-  - numpy=1.9
+  - numpy
   - scipy
   - pip
-  - gmsh
-  - pysparse
-  - openmpi
-  - trilinos
-  - mpi4py
   - setuptools
-  - jupyter
-  - ipython
   - pip:
       - scikit-fmm
       - git+https://github.com/wd15/fipy.git@fipy-hackathon1
